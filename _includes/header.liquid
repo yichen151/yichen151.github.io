@@ -1,0 +1,11 @@
+<header>
+  <nav id="navbar" class="navbar navbar-light fixed-top" aria-label="Language and appearance">
+    <div class="container" style="display:flex;justify-content:flex-end">
+      <ul class="navbar-nav navbar-menu-list flex-nowrap" style="display:flex;flex-direction:row;align-items:center;gap:1rem">
+        <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}" lang="en" hreflang="en"{% if page.lang == 'en' %} aria-current="page"{% endif %}>English</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/zh/' | relative_url }}" lang="zh-CN" hreflang="zh-CN"{% if page.lang == 'zh-CN' %} aria-current="page"{% endif %}>中文</a></li>
+        <li class="toggle-container"><button id="light-toggle" type="button" title="Change theme / 切换主题" aria-label="Change color theme / 切换明暗主题"><i class="fa-half-sun-moon" id="light-toggle-system"></i><i class="fa-solid fa-moon" id="light-toggle-dark"></i><i class="fa-solid fa-sun" id="light-toggle-light"></i></button></li>
+      </ul>
+    </div>
+  </nav>
+</header>

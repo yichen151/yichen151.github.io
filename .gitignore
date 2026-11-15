@@ -1,0 +1,9 @@
+_site/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+node_modules/
+.template/
+.theme-source/
+.local/
